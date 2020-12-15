@@ -2146,9 +2146,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^7.28.1":
-  version: 7.28.1
-  resolution: "@testing-library/dom@npm:7.28.1"
+"@testing-library/dom@npm:^7.28.1, @testing-library/dom@npm:^7.29.0":
+  version: 7.29.0
+  resolution: "@testing-library/dom@npm:7.29.0"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -2158,11 +2158,11 @@ __metadata:
     dom-accessibility-api: ^0.5.4
     lz-string: ^1.4.4
     pretty-format: ^26.6.2
-  checksum: 1ff88e7637de3d80862091b5d55a0ca383a6b0430b4ffbd486a0b7e3fb190e1535244a7bf02c61dac9b556003431663e49ee4224b820630a14b5edf62cb93c6b
+  checksum: d737cdc14eea4addf0e9f2901fe0f0685e795c899d6a1fed014d80b136a4e1c64d3b136c4f389f8e9354db0e61b5edf9b1f18b339de401a42fbea4ec2696ef1c
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^5.11.4":
+"@testing-library/jest-dom@npm:^5.11.6":
   version: 5.11.6
   resolution: "@testing-library/jest-dom@npm:5.11.6"
   dependencies:
@@ -2178,7 +2178,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:^11.1.0":
+"@testing-library/react@npm:^11.2.2":
   version: 11.2.2
   resolution: "@testing-library/react@npm:11.2.2"
   dependencies:
@@ -2191,14 +2191,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:^12.1.10":
-  version: 12.5.0
-  resolution: "@testing-library/user-event@npm:12.5.0"
+"@testing-library/user-event@npm:^12.6.0":
+  version: 12.6.0
+  resolution: "@testing-library/user-event@npm:12.6.0"
   dependencies:
-    "@babel/runtime": ^7.10.2
+    "@babel/runtime": ^7.12.5
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: e8af3fc200e53dfa93111f3341c4ccffc3f85e6024b98551b1feae5b98d69e9252fe452086516916367330f0e34de5320dc4456f39bf0730c09d85451654616d
+  checksum: d6ad1876131b934137794a2b910f3f875ade748c3f6bd6e210089f740937d6ab8aa7d80201dcdaacdc7e208a69a807fbbe64cbd2c849449c23afa34dd5742f54
   languageName: node
   linkType: hard
 
@@ -2358,13 +2358,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:*, @types/jest@npm:^26.0.15":
-  version: 26.0.17
-  resolution: "@types/jest@npm:26.0.17"
+"@types/jest@npm:*, @types/jest@npm:^26.0.19":
+  version: 26.0.19
+  resolution: "@types/jest@npm:26.0.19"
   dependencies:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
-  checksum: 025af4f5b584e15097c96ff1b1873a75f785a3c4f7700609ed131ca1a74f05c94c08f112a2b5a0585c753e9163d26346d459f10c10f9d600e1d23e92cde65e9e
+  checksum: 98c8daaf89ca79823461818c1c22d337354e250a135e0314ba1a49e615620c8e2f54c5b900ba8554bf853919c97538f9a38b5af00cea83fd715ee2e6d75e04b8
   languageName: node
   linkType: hard
 
@@ -2405,10 +2405,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^12.0.0":
-  version: 12.19.8
-  resolution: "@types/node@npm:12.19.8"
-  checksum: f1d21f9d5df94b6217491e3bc2a1c8ae5b1cf9d3dc78b8570ed5b3a4c7abf01a18b80f2588c9691b9405c43130a6fb76aedc4296b5934a0a41d7cc1b64c4eba4
+"@types/node@npm:^12.19.9":
+  version: 12.19.9
+  resolution: "@types/node@npm:12.19.9"
+  checksum: c1a9b8c3ae53bff0a0c312b6f1e50ee139619eb32887829e4405131cc77e92c2c25e9fec82212a4c03c4eb0b50dde0537db44ae6dd4fa46cb11c824965832d3d
   languageName: node
   linkType: hard
 
@@ -2454,7 +2454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^16.9.8":
+"@types/react-dom@npm:^16.9.10":
   version: 16.9.10
   resolution: "@types/react-dom@npm:16.9.10"
   dependencies:
@@ -2463,7 +2463,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^16, @types/react@npm:^16.9.53":
+"@types/react@npm:^16, @types/react@npm:^16.14.2":
   version: 16.14.2
   resolution: "@types/react@npm:16.14.2"
   dependencies:
@@ -5021,33 +5021,34 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cra-pwa-typescript-yarn2@workspace:."
   dependencies:
-    "@testing-library/jest-dom": ^5.11.4
-    "@testing-library/react": ^11.1.0
-    "@testing-library/user-event": ^12.1.10
-    "@types/jest": ^26.0.15
-    "@types/node": ^12.0.0
-    "@types/react": ^16.9.53
-    "@types/react-dom": ^16.9.8
+    "@testing-library/dom": ^7.29.0
+    "@testing-library/jest-dom": ^5.11.6
+    "@testing-library/react": ^11.2.2
+    "@testing-library/user-event": ^12.6.0
+    "@types/jest": ^26.0.19
+    "@types/node": ^12.19.9
+    "@types/react": ^16.14.2
+    "@types/react-dom": ^16.9.10
     "@yarnpkg/pnpify": ^2.4.0
     eslint-config-react-app: ^6.0.0
     react: ^17.0.1
     react-dom: ^17.0.1
     react-refresh: ^0.9.0
     react-scripts: 4.0.1
-    typescript: ^4.1.2
+    typescript: ^4.1.3
     web-vitals: ^0.2.4
-    workbox-background-sync: ^5.1.3
-    workbox-broadcast-update: ^5.1.3
-    workbox-cacheable-response: ^5.1.3
-    workbox-core: ^5.1.3
-    workbox-expiration: ^5.1.3
-    workbox-google-analytics: ^5.1.3
-    workbox-navigation-preload: ^5.1.3
-    workbox-precaching: ^5.1.3
-    workbox-range-requests: ^5.1.3
-    workbox-routing: ^5.1.3
-    workbox-strategies: ^5.1.3
-    workbox-streams: ^5.1.3
+    workbox-background-sync: ^5.1.4
+    workbox-broadcast-update: ^5.1.4
+    workbox-cacheable-response: ^5.1.4
+    workbox-core: ^5.1.4
+    workbox-expiration: ^5.1.4
+    workbox-google-analytics: ^5.1.4
+    workbox-navigation-preload: ^5.1.4
+    workbox-precaching: ^5.1.4
+    workbox-range-requests: ^5.1.4
+    workbox-routing: ^5.1.4
+    workbox-strategies: ^5.1.4
+    workbox-streams: ^5.1.4
   languageName: unknown
   linkType: soft
 
@@ -9197,7 +9198,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.10.0":
+"js-yaml@npm:^3.10.0, js-yaml@npm:^3.13.1":
   version: 3.14.1
   resolution: "js-yaml@npm:3.14.1"
   dependencies:
@@ -9206,18 +9207,6 @@ fsevents@~2.1.2:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 46b61f889796a20d16b0b64580a01b6a02b2e45c1a2744906346da54d07e14cde764e887ab6d1512d8b2541c63711bd4b75859c28eb99605baf59fa173fc38c2
-  languageName: node
-  linkType: hard
-
-"js-yaml@npm:^3.13.1":
-  version: 3.14.0
-  resolution: "js-yaml@npm:3.14.0"
-  dependencies:
-    argparse: ^1.0.7
-    esprima: ^4.0.0
-  bin:
-    js-yaml: bin/js-yaml.js
-  checksum: 2eb95464e5263aedc20ae2d9280f0e29b00adab15ece080ec42473d7055efaab24b904108644d115f687efe05a5bde02972b883aafa93607c4c108f667a56fa7
   languageName: node
   linkType: hard
 
@@ -13330,7 +13319,7 @@ resolve@1.18.1:
   languageName: node
   linkType: hard
 
-"semver@npm:7.3.2, semver@npm:^7.2.1, semver@npm:^7.3.2":
+"semver@npm:7.3.2":
   version: 7.3.2
   resolution: "semver@npm:7.3.2"
   bin:
@@ -13348,7 +13337,7 @@ resolve@1.18.1:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.1.2":
+"semver@npm:^7.1.2, semver@npm:^7.2.1, semver@npm:^7.3.2":
   version: 7.3.4
   resolution: "semver@npm:7.3.4"
   dependencies:
@@ -14747,23 +14736,23 @@ resolve@1.18.1:
   languageName: node
   linkType: hard
 
-typescript@^4.1.2:
-  version: 4.1.2
-  resolution: "typescript@npm:4.1.2"
+typescript@^4.1.3:
+  version: 4.1.3
+  resolution: "typescript@npm:4.1.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d2ac373b469e973448c7287d0fbc732dbd34d00d07911b9506bbf81469a80db6613361fc9293d021da357cb7c7da2ee32f56d8ef76446361231374200cd6aee9
+  checksum: 4f7ab1506ea22c7a1c313ec5b4285e93ce08d709ad6086d02d3096adb399ca339972ee56d1e578213c51dd0fb7b0fad50283c2d3c39642405644458ae29774f8
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.1.2#builtin<compat/typescript>":
-  version: 4.1.2
-  resolution: "typescript@patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=cc6730"
+"typescript@patch:typescript@^4.1.3#builtin<compat/typescript>":
+  version: 4.1.3
+  resolution: "typescript@patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 001ab09bb8f597aab1ec43476aedb91b5d547749219273c232bf34cf5a2209d18fa782e64475755115f0907598bb9b503f5e1c0fed06c3651cac584fc88a8172
+  checksum: 017af992148346e671d5b83b041773825888e9c94db8d2b9472cdbb6d6f0ee85927817473121524d319f8be6ffe5a6904d27ff6ef21356d2274fcadd52e17938
   languageName: node
   linkType: hard
 
@@ -15433,7 +15422,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-background-sync@npm:^5.1.3, workbox-background-sync@npm:^5.1.4":
+"workbox-background-sync@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-background-sync@npm:5.1.4"
   dependencies:
@@ -15442,7 +15431,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-broadcast-update@npm:^5.1.3, workbox-broadcast-update@npm:^5.1.4":
+"workbox-broadcast-update@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-broadcast-update@npm:5.1.4"
   dependencies:
@@ -15495,7 +15484,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-cacheable-response@npm:^5.1.3, workbox-cacheable-response@npm:^5.1.4":
+"workbox-cacheable-response@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-cacheable-response@npm:5.1.4"
   dependencies:
@@ -15504,14 +15493,14 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-core@npm:^5.1.3, workbox-core@npm:^5.1.4":
+"workbox-core@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-core@npm:5.1.4"
   checksum: eaa6021ef9d7f3046619d09904171121286dee8c20299b00f4a06d85e8a549c0345f70cf5a5cb47c270641ffd3e319b40479c7a7bd4025c651f9ee215ee27014
   languageName: node
   linkType: hard
 
-"workbox-expiration@npm:^5.1.3, workbox-expiration@npm:^5.1.4":
+"workbox-expiration@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-expiration@npm:5.1.4"
   dependencies:
@@ -15520,7 +15509,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-google-analytics@npm:^5.1.3, workbox-google-analytics@npm:^5.1.4":
+"workbox-google-analytics@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-google-analytics@npm:5.1.4"
   dependencies:
@@ -15532,7 +15521,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-navigation-preload@npm:^5.1.3, workbox-navigation-preload@npm:^5.1.4":
+"workbox-navigation-preload@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-navigation-preload@npm:5.1.4"
   dependencies:
@@ -15541,7 +15530,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-precaching@npm:^5.1.3, workbox-precaching@npm:^5.1.4":
+"workbox-precaching@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-precaching@npm:5.1.4"
   dependencies:
@@ -15550,7 +15539,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-range-requests@npm:^5.1.3, workbox-range-requests@npm:^5.1.4":
+"workbox-range-requests@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-range-requests@npm:5.1.4"
   dependencies:
@@ -15559,7 +15548,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-routing@npm:^5.1.3, workbox-routing@npm:^5.1.4":
+"workbox-routing@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-routing@npm:5.1.4"
   dependencies:
@@ -15568,7 +15557,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-strategies@npm:^5.1.3, workbox-strategies@npm:^5.1.4":
+"workbox-strategies@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-strategies@npm:5.1.4"
   dependencies:
@@ -15578,7 +15567,7 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
-"workbox-streams@npm:^5.1.3, workbox-streams@npm:^5.1.4":
+"workbox-streams@npm:^5.1.4":
   version: 5.1.4
   resolution: "workbox-streams@npm:5.1.4"
   dependencies:
