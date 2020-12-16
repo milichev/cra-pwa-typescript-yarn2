@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {withAuthenticator} from '@aws-amplify/ui-react';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
